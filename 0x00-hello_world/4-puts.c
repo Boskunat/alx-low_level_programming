@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * printing C
+ * main - print out string to stdout
  *
  * Return: Always 0 (Successfully)
  */
