@@ -6,18 +6,18 @@
  * Int prototypes()
  * Char prototypes()
  * */
-Void reverse_array(int*a, int n);
-Void print_number(int n);
-Void print_buffer(char *b, int size);
-Int_strcmp(char*s1, char*s2);
-Char*_strcat(char*desk, char*src);
-Char*_strncat(char*desk, char*src, int n);
-Char*_strncpy(char*deak, char*src, int n);
-Char* string_toupper(char*);
-Char* cap_string(char*);
-Char*leet(char*);
-Char*rot13(char*);
-Char* infinite_add(char* n1, char* n2, char* r, int size_r);
-Char* add_strings(char* n1, char* n2, char* r, int r_index);
+void reverse_array(int*a, int n);
+void print_number(int n);
+void print_buffer(char *b, int size);
+int _strcmp(char*s1, char*s2);
+char*_strcat(char*desk, char*src);
+char*_strncat(char*desk, char*src, int n);
+char*_strncpy(char*deak, char*src, int n);
+char* string_toupper(char*);
+char* cap_string(char*);
+char*leet(char*);
+char*rot13(char*);
+char* infinite_add(char* n1, char* n2, char* r, int size_r);
+char* add_strings(char* n1, char* n2, char* r, int r_index);
 
 #endif /*MAIN_H* /
