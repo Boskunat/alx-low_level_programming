@@ -8,10 +8,11 @@
  */
 int main(void)
 {
-	char Low, e, q;
+	char low, e, q;
+
 	e = 'e';
 	q = 'q';
-for(Low = 'a'; Low <='z'; Low++)
+for(low = 'a'; low <='z'; low++)
 {
 	if (low != e && low != q)
 	putchar(low);
