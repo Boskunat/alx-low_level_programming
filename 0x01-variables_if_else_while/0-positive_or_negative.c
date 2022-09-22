@@ -3,11 +3,13 @@
 #include <time.h>
 /**
  * main - Entry point
+ *
  * return: Alway sucess
  */
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	
