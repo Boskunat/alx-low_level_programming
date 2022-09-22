@@ -9,7 +9,7 @@
  * Return: returns pointer to @desk
  */
 
-char*_strcat(char*desk, char* src)
+char *_strcat(char *desk, char *src)
 {
 
 	int index = 0, dexk_len = 0;
