@@ -17,7 +17,7 @@ char *_strcat(char *desk, char *src)
 	while (desk[index++])
 		desk_len++;
 
-	for (index = 0; src[index]: index++)
+	for (index = 0; src[index] : index++)
 		desk[desk_len++] = src[index];
 
 	return (desk);
