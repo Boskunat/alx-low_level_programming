@@ -2,24 +2,27 @@
 #include <string.h>
 
 /**
- *_ strcat - concatenates the string pointed to by @src
- * the end of the string pointed to by @desk
- * @desk: String that will be appended
- * @src: String to be concatenated upon
+ *_ strcat - > this is a function strcat
+ * @dest: first param
+ * @src: second param
  *
- * Return: returns pointer to @desk
+ * Return: a string
  */
 
-char *_strcat(char *desk, char *src)
+char *_strcat(char *dest, char *src)
 {
 
-	int index = 0, dexk_len = 0;
+	int index = 0, i;
 
-	while (desk[index++])
-		desk_len++;
+	while (desk[len])
+		len++;
 
-	for (index = 0; src[index] : index++)
-		desk[desk_len++] = src[index];
+	for (i = 0; src[i] != '\0', i++
+			{dest[len] = src[i];
+			len += 1;
+			}
+		strcat(dest, src)
+		dest[len] = '\0';
 
-	return (desk);
+	return (dest);
 }
