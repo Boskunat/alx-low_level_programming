@@ -5,6 +5,7 @@
  * main - Entry point
  *
  * return: Alway sucess
+ * return: 0
  */
 int main(void)
 {
