@@ -4,7 +4,7 @@
  * @ab: input letter
  * Return: Always success
  */
-int abs(int ab)
+int abs(int)
 {
 
 	return (ab * ((ab > 0) - (ab < 0)));
