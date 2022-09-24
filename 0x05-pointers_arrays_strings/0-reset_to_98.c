@@ -6,6 +6,7 @@
  * Return: void
  */
 void reste_to_98(int *n)
+
 {
 	*n = 98;
 }
