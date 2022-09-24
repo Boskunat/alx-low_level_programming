@@ -4,7 +4,7 @@
  * @n: input letter
  * Return: Always success
  */
-int print_last _digit(int n)
+int print_last_digit(int n)
 {
 
 	int p;
